@@ -1,0 +1,33 @@
+# from .category_serializer import CategorySerializer
+# from .news_category_serializer import NewsCategorySerializer1,NewsCategorySerializer,NewsCategorySerializer2
+
+from .category_serializers import CategorySerializer,CategorySerializer1,NewsSubCategorySerializer1
+from .news_category_serializers import NewsCategorySerializer1, NewsCategorySerializer, NewsCategorySerializer2,NewsCategorySerializer3
+from .news_subcategory_serializers import NewsSubCategorySerializer
+# from .language_serializers import LanguageSerializer
+
+from .register_serializer import LoginSerializer,VerifySerializer,ResendOtpSerializer,MoreDetailsSerializer
+# from .login_serializer import ResendOtpSerializer,VerifySerializer,LoginSerializer,RegisterSerializer1,RegisterSerializer,ResetSerializer
+from .article_serializers import *
+from .article_profile_serializer import ArticleProfileSerializer,ArticleProfileSerializer1,PaginatedArticleSerializer
+from .comment_serializers import CommentSerializer,CommentSerializer1
+from .article_category_serializers import *
+
+
+from .staging_serializer import StagingSerializer,StagingSerializer1
+from .news_comment_serializer import News_CommentSerializer1,News_CommentSerializer,News_ReplySerializer
+
+from .customholiday_serializer import FixedHolidaySerializer
+from .media_serializers import MediaSerializer,MediaSerializer1
+# from .leader_serializers import LeaderSerializer,LeaderSerializer1
+from .organizations_serializers import OrganizationsSerializer1,OrganizationsSerializer
+from .outlook_comments_serializers import Outlook_CommentSerializer1,Outlook_CommentSerializer,Outlook_ReplySerializer
+from .organization_category_serializers import OrganizationCategorySerializer
+from .polling_serializers import PollResponseSerializer,PollSerializer,PollSerializer
+from .movie_header_serializer import MovieHeaderSerializer
+from .movie_platforms_serializer import MoviePlatformsSerializer
+from .movie_geners_serializer import MovieGenersSerializer
+from .movie_details_serializers import MovieDetailsSerializer
+from .staging_movie_details_serializer import StagingMovieDetailsSerializer
+from .language_serializers import LanguageSerializer
+from .news_podcast_serializer import NewsPodcastSerializer,NewsPodcastSerializer1
